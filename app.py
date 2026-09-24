@@ -60,7 +60,8 @@ with st.sidebar:
             "nav-link-selected": {
                 "background-color": "rgba(0, 255, 204, 0.15)", # Fundo translúcido (funciona no claro e escuro)
                 "border-left": "4px solid #00FFCC"
-            },
+        },
+    }
     
     st.markdown("---")
     st.caption("© 2026 - Shin | Physical Engineering")
