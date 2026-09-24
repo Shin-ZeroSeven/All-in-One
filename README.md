@@ -32,23 +32,23 @@ A plataforma é hospedada em nuvem (*Software as a Service*) e não requer nenhu
 
 ## 💻 Como Rodar Localmente (Para Desenvolvedores)
 
-Caso deseje clonar este repositório e rodar a plataforma em sua própria máquina:
-
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/Shin-ZeroSeven/EngFis-All-in-One.git](https://github.com/Shin-ZeroSeven/EngFis-All-in-One.git)
-   cd EngFis-All-in-One
-
-2. Instale as dependências num ambiente virtual:
+1. Instale as dependências num ambiente virtual:
 *   pip install -r requirements.txt
 
-3. Configure a sua Chave de API da Google:
+2. Configure a sua Chave de API da Google:
 
 *   Crie uma pasta chamada .streamlit na raiz do projeto.
 *   Dentro dela, crie um arquivo secrets.toml e insira a sua chave: GEMINI_API_KEY = "SUA_CHAVE_AQUI"
 
-4. Inicie o servidor local:
+3. Inicie o servidor local:
 
 *   streamlit run app.py
+
+Caso deseje clonar este repositório e rodar a plataforma em sua própria máquina:
+
+   Clone o repositório:
+   ```bash
+   git clone [https://github.com/Shin-ZeroSeven/EngFis-All-in-One.git](https://github.com/Shin-ZeroSeven/EngFis-All-in-One.git)
+   cd EngFis-All-in-One
 
 © Desenvolvido por Shin | Physical Engineering - 2026
