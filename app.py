@@ -506,10 +506,10 @@ elif modulo_selecionado == "⚡ Bancada de Eletrônica":
         peca_selecionada = st.selectbox("Selecione o Componente:", ["Placa Arduino Uno", "Microcontrolador (Chip DIP)", "Resistor PTH"])
         
         modelos_3d = {
-            "Placa Arduino Uno": "link_ou_arquivo_arduino.gltf", 
-            "Microcontrolador (Chip DIP)": "link_ou_arquivo_microcontrolador.gltf", 
-            "Resistor PTH": "link_ou_arquivo_resistor.gltf" 
-            "Meu Novo Capacitor": "capacitor_ufv.glb"
+           # "Placa Arduino Uno": "link_ou_arquivo_arduino.gltf", 
+           # "Microcontrolador (Chip DIP)": "link_ou_arquivo_microcontrolador.gltf", 
+           # "Resistor PTH": "link_ou_arquivo_resistor.gltf" 
+           # "Meu Novo Capacitor": "capacitor_ufv.glb"
         }
         
         url_modelo = modelos_3d[peca_selecionada]
