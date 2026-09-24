@@ -40,7 +40,6 @@ Caso deseje clonar este repositório e rodar a plataforma em sua própria máqui
    cd EngFis-All-in-One
 
 2. Instale as dependências num ambiente virtual:
-  Bash
       pip install -r requirements.txt
 
 3. Configure a sua Chave de API da Google:
@@ -50,8 +49,6 @@ Caso deseje clonar este repositório e rodar a plataforma em sua própria máqui
 
 4. Inicie o servidor local:
 
-  Bash
     streamlit run app.py
 
-    
 © Desenvolvido por Shin | Physical Engineering - 2026
