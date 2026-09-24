@@ -40,15 +40,15 @@ Caso deseje clonar este repositório e rodar a plataforma em sua própria máqui
    cd EngFis-All-in-One
 
 2. Instale as dependências num ambiente virtual:
-      pip install -r requirements.txt
+*   **pip install -r requirements.txt
 
 3. Configure a sua Chave de API da Google:
 
-  Crie uma pasta chamada .streamlit na raiz do projeto.
-  Dentro dela, crie um arquivo secrets.toml e insira a sua chave: GEMINI_API_KEY = "SUA_CHAVE_AQUI"
+*   **Crie uma pasta chamada .streamlit na raiz do projeto.
+*   **Dentro dela, crie um arquivo secrets.toml e insira a sua chave: GEMINI_API_KEY = "SUA_CHAVE_AQUI"
 
 4. Inicie o servidor local:
 
-    streamlit run app.py
+*   **streamlit run app.py
 
 © Desenvolvido por Shin | Physical Engineering - 2026
