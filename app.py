@@ -30,9 +30,8 @@ with st.sidebar:
         st.image(logo_img, use_container_width=True)
         
     except Exception as e:
-        # Fallback de segurança 
-        st.markdown("<h2 style='text-align: center; color: white;'>⚛️ EngFis UFV</h2>", unsafe_allow_html=True)
-        # st.error(f"Debug: {e}") # Descomente esta linha se a imagem ainda não carregar para lermos o erro exato
+        st.markdown("<h2 style='text-align: center;'>⚛️ EngFis UFV</h2>", unsafe_allow_html=True)
+        # st.error(f"Debug: {e}") # Descomente esta linha se a imagem ainda não carregar para ler o erro exato
         
     st.markdown("---")
     
@@ -59,11 +58,9 @@ with st.sidebar:
                 "border-radius": "5px"
             },
             "nav-link-selected": {
-                "background-color": "#1E1E1E", 
+                "background-color": "rgba(0, 255, 204, 0.15)", # Fundo translúcido (funciona no claro e escuro)
                 "border-left": "4px solid #00FFCC"
             },
-        }
-    )
     
     st.markdown("---")
     st.caption("© 2026 - Shin | Physical Engineering")
@@ -507,9 +504,10 @@ elif modulo_selecionado == "⚡ Bancada de Eletrônica":
         peca_selecionada = st.selectbox("Selecione o Componente:", ["Placa Arduino Uno", "Microcontrolador (Chip DIP)", "Resistor PTH"])
         
         modelos_3d = {
-            "Placa Arduino Uno": "https://modelviewer.dev/shared-assets/models/glTF-Sample-Models/2.0/SciFiHelmet/glTF/SciFiHelmet.gltf", 
-            "Microcontrolador (Chip DIP)": "https://modelviewer.dev/shared-assets/models/glTF-Sample-Models/2.0/DamagedHelmet/glTF/DamagedHelmet.gltf", 
-            "Resistor PTH": "https://modelviewer.dev/shared-assets/models/glTF-Sample-Models/2.0/Lantern/glTF/Lantern.gltf" 
+            "Placa Arduino Uno": "link_ou_arquivo_arduino.gltf", 
+            "Microcontrolador (Chip DIP)": "link_ou_arquivo_microcontrolador.gltf", 
+            "Resistor PTH": "link_ou_arquivo_resistor.gltf" 
+            "Meu Novo Capacitor": "capacitor_ufv.glb"
         }
         
         url_modelo = modelos_3d[peca_selecionada]
